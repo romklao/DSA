@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/binary-search/description/
+
 var binarySearch = function (nums, target) {
   let left = 0;
   let right = nums.length - 1;

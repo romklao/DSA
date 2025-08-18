@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/missing-number/description/
+
 const findMissingNumber = (nums) => {
   const n = nums.length;
   let numsSum = 0;

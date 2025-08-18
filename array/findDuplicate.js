@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/find-the-duplicate-number/description/
+
 const findDuplicate = (nums) => {
   let hash = {};
 

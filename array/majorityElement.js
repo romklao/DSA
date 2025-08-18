@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/majority-element/submissions/1737930160/
+
 var majorityElement = function (nums) {
   let hash = {};
 
