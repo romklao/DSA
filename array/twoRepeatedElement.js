@@ -15,17 +15,17 @@ function twoRepeatedElement(arr) {
 
   return ans;
 }
-
+// index approach
 function twoRepeatedElement(arr) {
   // code here
   let ans = [];
   for (let i = 0; i < arr.length; i++) {
-    let index = Math.abs(arr[i]) - 1;
+    let index = Math.abs(arr[i]);
 
     if (arr[index] > 0) {
       arr[index] = -arr[index];
     } else {
-      ans.push(index + 1);
+      ans.push(index);
     }
   }
   return ans;
