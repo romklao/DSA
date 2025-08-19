@@ -1,6 +1,12 @@
 //www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1
 
-https: function segregate0and1(arr) {
+function swap(arr, i, j) {
+  let c = arr[i];
+  arr[i] = arr[j];
+  arr[j] = c;
+}
+
+function segregate0and1(arr) {
   // code here
   let left = 0;
   let right = arr.length - 1;
