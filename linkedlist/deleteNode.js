@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1
+
 function deleteNode(head, x) {
   // code here
   if (head === null) return null;
